@@ -1,0 +1,161 @@
+body,
+input,
+textarea,
+button {
+    font-family: 'Itim', sans-serif
+}
+
+body {
+    font-family: 'Itim', sans-serif;
+    background-color: rgb(223, 204, 251);
+}
+
+.title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: rgb(152, 126, 245);
+    text-decoration-thickness: 5px;
+}
+
+.textbox {
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: rgb(208, 191, 255);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.textbox_title {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: rgb(152, 126, 245);
+    text-decoration-thickness: 4px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.text {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.home {
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: rgb(208, 191, 255);
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 50px;
+}
+
+.home:hover {
+    background-color: aqua;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.yesbutton {
+    background-color: rgb(185, 242, 190);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.buttontext {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-color: rgb(152, 126, 245);
+    text-decoration-thickness: 3px;
+    margin: 15px;
+}
+
+.yesbutton:hover {
+    background-color: rgb(69, 255, 134);
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nobutton {
+    background-color: rgb(245, 145, 145);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.nobutton:hover {
+    background-color: rgb(245, 65, 49);
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.data {
+    background-color: rgb(255, 216, 249);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.data_text {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-color: rgb(152, 126, 245);
+    text-decoration-thickness: 3px;
+    margin: 15px;
+}
+
+.data:hover {
+    background-color: aqua;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.image_description {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
